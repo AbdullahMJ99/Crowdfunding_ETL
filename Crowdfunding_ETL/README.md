@@ -16,26 +16,25 @@ Although you and your partner will divide the work, it’s essential to collabor
 - A Crowdfunding Database is Created
 
 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 1000 entries, 0 to 999
+
 Data columns (total 15 columns):
  #   Column                   Non-Null Count  Dtype 
 ---  ------                   --------------  ----- 
- 0   cf_id                    1000 non-null   int64 
- 1   contact_id               1000 non-null   int64 
- 2   company_name             1000 non-null   object
- 3   blurb                    1000 non-null   object
- 4   goal                     1000 non-null   int64 
- 5   pledged                  1000 non-null   int64 
- 6   outcome                  1000 non-null   object
- 7   backers_count            1000 non-null   int64 
- 8   country                  1000 non-null   object
- 9   currency                 1000 non-null   object
- 10  launched_at              1000 non-null   int64 
- 11  deadline                 1000 non-null   int64 
- 12  staff_pick               1000 non-null   bool  
- 13  spotlight                1000 non-null   bool  
- 14  category & sub-category  1000 non-null   object
+- 0   cf_id                    1000 non-null   int64 
+- 1   contact_id               1000 non-null   int64 
+- 2   company_name             1000 non-null   object
+- 3   blurb                    1000 non-null   object
+- 4   goal                     1000 non-null   int64 
+- 5   pledged                  1000 non-null   int64 
+- 6   outcome                  1000 non-null   object
+- 7   backers_count            1000 non-null   int64 
+- 8   country                  1000 non-null   object
+- 9   currency                 1000 non-null   object
+- 10  launched_at              1000 non-null   int64 
+- 11  deadline                 1000 non-null   int64 
+- 12  staff_pick               1000 non-null   bool  
+- 13  spotlight                1000 non-null   bool  
+- 14  category & sub-category  1000 non-null   object
 dtypes: bool(2), int64(7), object(6)
 memory usage: 103.6+ KB
 
@@ -47,10 +46,10 @@ RangeIndex: 1000 entries, 0 to 999
 Data columns (total 4 columns):
  #   Column      Non-Null Count  Dtype 
 ---  ------      --------------  ----- 
- 0   contact_id  1000 non-null   int64 
- 1   first_name  1000 non-null   object
- 2   last_name   1000 non-null   object
- 3   email       1000 non-null   object
+- 0   contact_id  1000 non-null   int64 
+- 1   first_name  1000 non-null   object
+- 2   last_name   1000 non-null   object
+- 3   email       1000 non-null   object
 dtypes: int64(1), object(3)
 memory usage: 31.4+ KB
 
@@ -60,15 +59,15 @@ RangeIndex: 1000 entries, 0 to 999
 Data columns (total 4 columns):
  #   Column      Non-Null Count  Dtype 
 ---  ------      --------------  ----- 
- 0   contact_id  1000 non-null   int32 
- 1   first_name  1000 non-null   object
- 2   last_name   1000 non-null   object
- 3   email       1000 non-null   object
+ -0   contact_id  1000 non-null   int32 
+ -1   first_name  1000 non-null   object
+ -2   last_name   1000 non-null   object
+ -3   email       1000 non-null   object
 dtypes: int32(1), object(3)
 memory usage: 27.5+ KB
 
 
-Databases created with Python, pandas, excel and jupyter notebook.
+*Databases created with Python, pandas, excel and jupyter notebook.*
 
 
 
