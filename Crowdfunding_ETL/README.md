@@ -59,10 +59,10 @@ RangeIndex: 1000 entries, 0 to 999
 Data columns (total 4 columns):
  #   Column      Non-Null Count  Dtype 
 ---  ------      --------------  ----- 
- -0   contact_id  1000 non-null   int32 
- -1   first_name  1000 non-null   object
- -2   last_name   1000 non-null   object
- -3   email       1000 non-null   object
+ - 0   contact_id  1000 non-null   int32 
+ - 1   first_name  1000 non-null   object
+ - 2   last_name   1000 non-null   object
+ - 3   email       1000 non-null   object
 dtypes: int32(1), object(3)
 memory usage: 27.5+ KB
 
